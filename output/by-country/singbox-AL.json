@@ -5,26 +5,22 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇩🇰 丹麦 (Denmark) 01 - xiaohe",
-      "server": "176.108.244.38",
-      "server_port": 9881,
-      "uuid": "5d16ac22-6eea-426f-b778-6f4c2961faef",
+      "tag": "🇦🇱 AL 01 - xiaohe",
+      "server": "85.155.228.185",
+      "server_port": 443,
+      "uuid": "ca5ffe64-81e0-42f0-a136-03cc4f662a4f",
       "tls": {
         "enabled": true,
-        "server_name": "dl.google.com",
+        "server_name": "avsal.krusofiya.fun",
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0",
-          "short_id": "aabb"
+          "public_key": "9M294WArTUZ9m1fMmvlHauSb5wZo68SkCW_lEgBVAF8",
+          "short_id": "4d5faa03b738bd3b"
         }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "grpc-tunnel"
       }
     },
     {
@@ -32,14 +28,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇩🇰 丹麦 (Denmark) 01 - xiaohe"
+        "🇦🇱 AL 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇩🇰 丹麦 (Denmark) 01 - xiaohe"
+        "🇦🇱 AL 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
